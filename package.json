@@ -2,7 +2,7 @@
   "name": "burnout-survey",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Hamsoon22/Burnout_MBI_GS",
+  "homepage": "https://hamsoon22.github.io/Burnout_MBI_GS",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

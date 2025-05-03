@@ -1,12 +1,12 @@
 # Burnout_MBI_GS
-This is project is online burnout questions for mental health (MBI-GS)
+This is project is online burnout questions for mental health (MBI-HSS)
 # Burnout MBI-GS Questionnaire (번아웃 측정 설문)
 
 이 프로젝트는 Maslach Burnout Inventory-General Survey (MBI-GS)를 기반으로 한 번아웃 자가진단 웹 애플리케이션입니다.
 
 ## 🔗 데모 링크
 
-[👉 웹사이트 바로가기](https://hamsoon22.github.io/Burnout_MBI_GS)
+[👉 웹사이트 바로가기](https://hamsoon22.github.io/Burnout_MBI_HSS)
 
 ## 📋 기능 소개
 

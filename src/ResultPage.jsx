@@ -24,10 +24,10 @@ export default function ResultPage() {
     <div className="burnout-container">
       <main className="burnout-main">
         <section className="burnout-section">
-          <h2 className="burnout-title">📊 설문 결과</h2>
+          <h2 className="burnout-title">📊MBI HSS 설문 결과</h2>
           <div className="burnout-result-box">
             <p className="burnout-result-text">소진 점수 평균: {exhaustionMean.toFixed(2)} / 소진T 내점수: {exhaustionT.toFixed(1)}</p>
-            <p className="burnout-result-text">비인격화 점수 평균: {depersonalMean.toFixed(2)} / 비인격화T 내점수: {depersonalT.toFixed(1)}</p>
+            <p className="burnout-result-text">냉소 점수 평균: {depersonalMean.toFixed(2)} / 냉소T 내점수: {depersonalT.toFixed(1)}</p>
             <p className="burnout-result-text">효능감 점수: {efficacyMean.toFixed(2)} / 효능감T 내점수: {efficacyT.toFixed(1)}</p>
           </div>
           <div className="burnout-button-center">

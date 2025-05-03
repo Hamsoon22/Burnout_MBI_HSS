@@ -18,7 +18,7 @@ export default function ResultPage() {
     );
   }
 
-  const { exhaustion, depersonal, efficacy, exhaustionT, depersonalT, efficacyT } = state;
+  const { exhaustionMean, depersonalMean, efficacyMean, exhaustionT, depersonalT, efficacyT } = state;
 
   return (
     <div className="burnout-container">
@@ -26,9 +26,9 @@ export default function ResultPage() {
         <section className="burnout-section">
           <h2 className="burnout-title">📊 설문 결과</h2>
           <div className="burnout-result-box">
-            <p className="burnout-result-text">소진 평균: {exhaustion.toFixed(2)} / T 점수: {exhaustionT.toFixed(1)}</p>
-            <p className="burnout-result-text">비인격화 평균: {depersonal.toFixed(2)} / T 점수: {depersonalT.toFixed(1)}</p>
-            <p className="burnout-result-text">효능감 평균: {efficacy.toFixed(2)} / T 점수: {efficacyT.toFixed(1)}</p>
+            <p className="burnout-result-text">소진 점수 평균: {exhaustionMean.toFixed(2)} / 소진T 내점수: {exhaustionT.toFixed(1)}</p>
+            <p className="burnout-result-text">비인격화 점수 평균: {depersonalMean.toFixed(2)} / 비인격화T 내점수: {depersonalT.toFixed(1)}</p>
+            <p className="burnout-result-text">효능감 점수: {efficacyMean.toFixed(2)} / 효능감T 내점수: {efficacyT.toFixed(1)}</p>
           </div>
           <div className="burnout-button-center">
             <button className="burnout-button" onClick={() => navigate("/")}>다시 하기</button>

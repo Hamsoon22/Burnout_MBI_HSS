@@ -2,12 +2,12 @@
   "name": "burnout-survey",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Hamsoon22.github.io/Burnout_questionnaire",
+  "homepage": "https://github.com/Hamsoon22/Burnout_MBI_GS/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "react-router-dom": "^6.11.2"
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,7 +16,7 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.3.0"
   },
   "browserslist": {
     "production": [

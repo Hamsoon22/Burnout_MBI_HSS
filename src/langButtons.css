@@ -1,0 +1,19 @@
+.lang-button {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .lang-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .active-lang {
+    background-color: #2563eb;
+    color: white;
+    border-color: #2563eb;
+  }
+  
